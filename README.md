@@ -14,3 +14,5 @@ Mode
   calculatingRange
   calculatingInterquartileRange
   calculatingCoefficientOfVariation
+
+  # Lets console it all i hope it works lol

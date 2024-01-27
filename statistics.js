@@ -75,3 +75,23 @@ class descriptiveStatistics {
         return sortedData[lowerValue] + (sortedData[upperValue] - sortedData[lowerValue]) * (index - lowerValue);
       }
 }
+
+//EG
+const data = [2, 4, 6, 8, 10];
+const statsCalculator = new descriptiveStatistics(data);
+
+console.log("Mean:", statsCalculator.calculatingMean());
+
+console.log("Median:", statsCalculator.calculatingMedian());
+
+console.log("Mode:", statsCalculator.calculatingMode());
+
+console.log("Variance:", statsCalculator.calculatingVariance());
+
+console.log("Standard Deviation:", statsCalculator.calculatingStandardDeviation());
+
+console.log("Range:", statsCalculator.calculatingRange());
+
+console.log("Interquartile Range:", statsCalculator.calculatingInterquartileRange());
+
+console.log("Coefficient of Variation:", statsCalculator.calculatingCoefficientOfVariation());
